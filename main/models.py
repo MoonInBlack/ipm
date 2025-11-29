@@ -23,7 +23,7 @@ class Size(models.Model):
 
 
 # класс для показа остатка по размерам
-class Productsize(models.Model):
+class ProductSize(models.Model):
     product = models.ForeignKey(
         "Product", on_delete=models.CASCADE, related_name="product_size"
     )
